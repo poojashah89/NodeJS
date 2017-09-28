@@ -1,0 +1,27 @@
+{
+  "name": "node-authentication",
+  "main": "server.js",
+  "dependencies" : {
+    "express" : "~4.0.0",           
+    "ejs" : "~0.8.5",
+    "passport-fitbit-oauth2" : "latest",             
+    "mongoose" : "~4.4",          
+    "passport" : "latest",         
+    "passport-local" : "latest",    
+    "connect-flash" : "~0.1.1",     
+    "bcrypt-nodejs" : "latest",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0",
+    "angular": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "request": "latest",
+    "passport-auth0": "latest",
+    "connect-ensure-login": "latest"
+  }
+}

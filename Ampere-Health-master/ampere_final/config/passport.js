@@ -13,8 +13,8 @@ module.exports = function(passport) {
 
     passport.use('auth0', new Auth0Strategy({
                 domain:'ampere.auth0.com',
-                clientID:     'JEN6nvHWkmcDyXiGlm5UKdzNdnGKpp9L',
-                clientSecret: 'sPckte6Xscg0jkmCgKHZb6Ag3MlSPc4KiU7lkqsRsFONqsW4aSNnAWnJFoG5ZB65',
+                clientID:     '',
+                clientSecret: '',
                 callbackURL:  'http://localhost:3000/auth/callback'
       },
       function(accessToken, refreshToken, extraParams, profile, done) {
